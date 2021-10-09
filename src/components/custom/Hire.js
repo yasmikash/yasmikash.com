@@ -28,6 +28,7 @@ const Wrapper = styled.div`
   h1 {
     margin: 0;
     font-size: 2.4rem;
+    text-align: center;
   }
 
   h2 {

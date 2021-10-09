@@ -47,15 +47,15 @@ const Wrapper = styled.section`
   .section__header-container-divider {
     background-color: #f8f9fa;
     width: 100%;
-    height: 2px;
+    height: 0.2rem;
   }
 
   .section__body {
-    padding: 10px;
+    padding: 1rem;
     display: flex;
     justify-content: center;
     flex-direction: row;
-    gap: 10px;
+    gap: 1rem;
   }
 
   .section__header-container-icon {

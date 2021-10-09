@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { AiFillTag } from "react-icons/ai";
 import { format } from "date-fns";
+import { bp } from "../../config";
 
 const Article = ({ data = [] }) => {
   const articles = [];
@@ -68,15 +69,15 @@ const Wrapper = styled.div`
   .article {
     display: flex;
     background-color: #f8f9fa;
-    padding: 10px;
+    padding: 1rem;
     border-radius: 3px;
     gap: 1rem;
     width: 50%;
   }
 
   .article__img img {
-    width: 180px;
-    height: 110px;
+    width: 18rem;
+    height: 11rem;
     object-fit: cover;
     border-radius: 3px;
     box-shadow: 3px 2px 1px #e9ecef;
@@ -132,6 +133,16 @@ const Wrapper = styled.div`
 
   .content-metadata__categories-tag {
     display: flex;
+  }
+
+  @media ${bp.laptop} {
+    .article-row {
+      flex-direction: column;
+    }
+
+    .article {
+      width: 100%;
+    }
   }
 `;
 

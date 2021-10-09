@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import { bp } from "../../config";
 
 const Testimonial = () => {
   return (
@@ -67,6 +68,14 @@ const Wrapper = styled.div`
   }
 
   .test__box-review {
+  }
+
+  @media ${bp.laptop} {
+    flex-direction: column;
+
+    .test__box {
+      width: 100%;
+    }
   }
 `;
 

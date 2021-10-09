@@ -1,5 +1,6 @@
 import React from "react";
 import styled, { createGlobalStyle } from "styled-components";
+import { bp } from "../../config";
 import Footer from "./Footer";
 
 const Layout = ({ children }) => {
@@ -13,7 +14,7 @@ const Layout = ({ children }) => {
 };
 
 const Container = styled.div`
-  margin: 20px 0;
+  margin: 2rem 0;
   display: flex;
   flex-direction: column;
   width: 90%;
@@ -48,6 +49,18 @@ const GlobalStyle = createGlobalStyle`
         display: flex;
         align-items: center;
         flex-direction: column;
+    }
+
+    @media ${bp.tablet} {
+      html {
+        font-size: 56.25%;
+      }
+    }
+
+    @media ${bp.laptop} {
+      html {
+        font-size: 50%;
+      }
     }
 `;
 

@@ -80,7 +80,7 @@ const Wrapper = styled.div`
   flex-grow: 1;
   flex-direction: column;
   justify-content: center;
-  gap: 10px;
+  gap: 1rem;
   color: #f8f9fa;
   font-size: 1.3rem;
 `;
@@ -92,7 +92,7 @@ const Item = styled.div`
 `;
 
 const Icon = styled.div`
-  width: 8%;
+  width: 2.5rem;
   display: flex;
 `;
 const Text = styled.div``;

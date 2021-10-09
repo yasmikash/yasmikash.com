@@ -31,7 +31,7 @@ const Header = () => {
 const Wrapper = styled.div`
   display: flex;
   width: 100%;
-  column-gap: 5px;
+  gap: 0.5rem;
   flex-wrap: wrap;
 
   .header__profile {
@@ -39,7 +39,7 @@ const Wrapper = styled.div`
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    padding: 20px;
+    padding: 2rem;
     background-color: #495057;
     border-radius: 3px;
     width: 40%;
@@ -49,8 +49,8 @@ const Wrapper = styled.div`
 
   .header__profile-img {
     border-radius: 50%;
-    width: 120px;
-    height: 120px;
+    width: 12rem;
+    height: 12rem;
   }
 
   .header__cover {
@@ -80,6 +80,22 @@ const Wrapper = styled.div`
     font-weight: normal;
     width: 80%;
     margin: 0;
+  }
+
+  @media ${bp.tablet} {
+    flex-direction: column;
+
+    .header__profile {
+      width: 100%;
+    }
+
+    .header__cover {
+      width: 100%;
+    }
+
+    .header__cover-text-secondary {
+      width: 100%;
+    }
   }
 `;
 
