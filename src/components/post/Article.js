@@ -60,10 +60,11 @@ const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  gap: 0.5rem;
 
   .article-row {
     display: flex;
-    flex-wrap: wrap;
+    gap: 0.5rem;
   }
 
   .article {
@@ -71,8 +72,8 @@ const Wrapper = styled.div`
     background-color: #f8f9fa;
     padding: 1rem;
     border-radius: 3px;
-    gap: 1rem;
     width: 50%;
+    gap: 0.5rem;
   }
 
   .article__img img {

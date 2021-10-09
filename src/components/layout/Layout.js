@@ -27,6 +27,8 @@ const GlobalStyle = createGlobalStyle`
 
     html {
         font-size: 62.5%;
+        line-height: 2rem;
+
     }
 
     body {

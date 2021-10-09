@@ -72,6 +72,7 @@ const Wrapper = styled.div`
 
   @media ${bp.laptop} {
     flex-direction: column;
+    width: 100%;
 
     .test__box {
       width: 100%;

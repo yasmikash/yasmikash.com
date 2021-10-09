@@ -75,7 +75,6 @@ const Wrapper = styled.div`
   .header__cover-text-secondary {
     font-size: 1.4rem;
     color: #f8f9fa;
-    line-height: 2rem;
     text-align: justify;
     font-weight: normal;
     width: 80%;
