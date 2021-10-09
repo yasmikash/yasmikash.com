@@ -4,7 +4,7 @@ import styled from "styled-components";
 const Hire = () => {
   return (
     <Wrapper>
-      <h1>Interested in hiring me as your developer?</h1>
+      <h1>Interested in working with me on projects?</h1>
       <h2>send me an email @</h2>
       <h2 className="hire__email-text">
         <a href="mailto:hello@yasmikash.com">hello@yasmikash.com</a>

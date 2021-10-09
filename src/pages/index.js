@@ -12,7 +12,7 @@ import styled from "styled-components";
 import ReactLoading from "react-loading";
 import Hire from "../components/custom/Hire";
 import Testimonial from "../components/testimonial/Testimonial";
-import { Helmet } from "react-helmet";
+import SEO from "../components/seo/SEO";
 
 export default function Home() {
   const [articles, setArticles] = useState(null);
@@ -31,25 +31,7 @@ export default function Home() {
 
   return (
     <Layout>
-      <Helmet>
-        <meta
-          name="title"
-          content="Yasmika Saubhagya -  Full Stack Developer"
-        />
-        <meta
-          name="description"
-          content="I develop software applications using popular technology stacks."
-        />
-        <meta
-          name="keywords"
-          content="yasmikash, full-stack, web development, sliit, itelasoft, sri lanka, software engineer, reactjs, nodejs, expressjs, flutter, backend development, frontend development, mobile development "
-        />
-        <meta name="robots" content="index, follow" />
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-        <meta name="language" content="English" />
-        <meta name="revisit-after" content="5 days" />
-        <meta name="author" content="Yasmika Saubhagya" />
-      </Helmet>
+      <SEO />
       <Header />
       <Section title="Technologies Familiarized">
         <SectionContainer>
