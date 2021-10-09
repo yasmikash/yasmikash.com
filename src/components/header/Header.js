@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import BioBadge from "./BioBadge";
 import { StaticImage } from "gatsby-plugin-image";
+import { bp } from "../../config";
 
 const Header = () => {
   return (
@@ -42,6 +43,8 @@ const Wrapper = styled.div`
     background-color: #495057;
     border-radius: 3px;
     width: 40%;
+    flex-grow: 1;
+    gap: 4rem;
   }
 
   .header__profile-img {
@@ -54,11 +57,11 @@ const Wrapper = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
-    flex-grow: 1;
+    width: 50%;
     flex-wrap: wrap;
     border-radius: 3px;
     background-color: #343a40;
-    padding: 20px;
+    padding: 2rem;
     gap: 1rem;
   }
 
@@ -75,7 +78,7 @@ const Wrapper = styled.div`
     line-height: 2rem;
     text-align: justify;
     font-weight: normal;
-    width: 500px;
+    width: 80%;
     margin: 0;
   }
 `;

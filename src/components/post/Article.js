@@ -58,9 +58,11 @@ const Article = ({ data = [] }) => {
 const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
 
   .article-row {
     display: flex;
+    flex-wrap: wrap;
   }
 
   .article {

@@ -78,7 +78,6 @@ const BioBadge = () => {
 const Wrapper = styled.div`
   display: flex;
   flex-grow: 1;
-  margin-left: 40px;
   flex-direction: column;
   justify-content: center;
   gap: 10px;
