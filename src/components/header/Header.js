@@ -62,7 +62,7 @@ const Wrapper = styled.div`
     border-radius: 3px;
     background-color: #343a40;
     padding: 2rem;
-    gap: 1rem;
+    gap: 2rem;
   }
 
   .header__cover-text-main {
