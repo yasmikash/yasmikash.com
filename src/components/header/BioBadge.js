@@ -94,6 +94,7 @@ const Item = styled.div`
 const Icon = styled.div`
   width: 2.5rem;
   display: flex;
+  font-size: 1.8rem;
 `;
 const Text = styled.div``;
 
