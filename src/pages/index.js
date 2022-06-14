@@ -38,7 +38,6 @@ export default function Home() {
           <Item title="Node.JS" icon={FaNodeJs} />
           <Item title="React.JS" icon={FaReact} />
           <Item title="React Native" icon={RiReactjsLine} />
-          <Item title="Flutter" icon={RiFlutterFill} />
           <Item title="Java" icon={FaJava} />
           <Item title="C#" icon={SiCsharp} />
         </SectionContainer>

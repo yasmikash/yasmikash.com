@@ -12,7 +12,7 @@ const NotFound = () => {
         <h2>That page does not exist.</h2>
         <h3>
           Please go to the <a href="/">home page</a>, or if you want to contact
-          me, send me an email @ hello@yasmikash.com.
+          me, send me an email @ yasmikash@gmail.com.
         </h3>
       </Wrapper>
     </Layout>

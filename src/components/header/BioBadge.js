@@ -14,17 +14,6 @@ const BioBadge = () => {
     <Wrapper>
       <Item>
         <Icon>
-          <BiBuildings />
-        </Icon>
-        <Text>
-          Currently working @{" "}
-          <a href="https://www.itelasoft.com.au/" target="_blank">
-            iTelaSoft
-          </a>
-        </Text>
-      </Item>
-      <Item>
-        <Icon>
           <SiFiverr />
         </Icon>
         <Text>
@@ -38,7 +27,7 @@ const BioBadge = () => {
           <AiOutlineMail />
         </Icon>
         <Text>
-          <a href="mailto:hello@yasmikash.com">hello@yasmikash.com</a>
+          <a href="mailto:yasmikash@gmail.com">yasmikash@gmail.com</a>
         </Text>
       </Item>
       <Item>

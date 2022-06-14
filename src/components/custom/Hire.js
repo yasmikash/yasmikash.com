@@ -7,7 +7,7 @@ const Hire = () => {
       <h1>Interested in working with me on projects?</h1>
       <h2>send me an email @</h2>
       <h2 className="hire__email-text">
-        <a href="mailto:hello@yasmikash.com">hello@yasmikash.com</a>
+        <a href="mailto:yasmikash@gmail.com">yasmikash@gmail.com</a>
       </h2>
     </Wrapper>
   );
